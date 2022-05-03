@@ -1,0 +1,4 @@
+Use either command
+1. python ftp_cracker.py [target host ip] -u "admin" -p "wordlist.txt"
+2. python ftp_cracker.py [target host ip] -i
+[target host ip] = 127.0.0.1 for localhost
