@@ -90,7 +90,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     interactive_mode = False
-    if args.interactive is not None:
+    if args.interactive:
         interactive_mode = True
     # hostname or IP address of the FTP server
     host = args.host
